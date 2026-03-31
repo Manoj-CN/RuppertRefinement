@@ -1,0 +1,3735 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Git/mingw64/bin/ninja-build.com"
+      - "C:/Program Files/Git/mingw64/bin/ninja-build.exe"
+      - "C:/Program Files/Git/mingw64/bin/ninja-build"
+      - "C:/Program Files/Git/mingw64/bin/ninja.com"
+      - "C:/Program Files/Git/mingw64/bin/ninja.exe"
+      - "C:/Program Files/Git/mingw64/bin/ninja"
+      - "C:/Program Files/Git/mingw64/bin/samu.com"
+      - "C:/Program Files/Git/mingw64/bin/samu.exe"
+      - "C:/Program Files/Git/mingw64/bin/samu"
+      - "C:/Program Files/Git/usr/bin/ninja-build.com"
+      - "C:/Program Files/Git/usr/bin/ninja-build.exe"
+      - "C:/Program Files/Git/usr/bin/ninja-build"
+      - "C:/Program Files/Git/usr/bin/ninja.com"
+      - "C:/Program Files/Git/usr/bin/ninja.exe"
+      - "C:/Program Files/Git/usr/bin/ninja"
+      - "C:/Program Files/Git/usr/bin/samu.com"
+      - "C:/Program Files/Git/usr/bin/samu.exe"
+      - "C:/Program Files/Git/usr/bin/samu"
+      - "C:/Users/cnman/bin/ninja-build.com"
+      - "C:/Users/cnman/bin/ninja-build.exe"
+      - "C:/Users/cnman/bin/ninja-build"
+      - "C:/Users/cnman/bin/ninja.com"
+      - "C:/Users/cnman/bin/ninja.exe"
+      - "C:/Users/cnman/bin/ninja"
+      - "C:/Users/cnman/bin/samu.com"
+      - "C:/Users/cnman/bin/samu.exe"
+      - "C:/Users/cnman/bin/samu"
+      - "C:/Program Files/Microsoft VS Code/ninja-build.com"
+      - "C:/Program Files/Microsoft VS Code/ninja-build.exe"
+      - "C:/Program Files/Microsoft VS Code/ninja-build"
+      - "C:/Program Files/Microsoft VS Code/ninja.com"
+      - "C:/Program Files/Microsoft VS Code/ninja.exe"
+      - "C:/Program Files/Microsoft VS Code/ninja"
+      - "C:/Program Files/Microsoft VS Code/samu.com"
+      - "C:/Program Files/Microsoft VS Code/samu.exe"
+      - "C:/Program Files/Microsoft VS Code/samu"
+      - "C:/Windows/System32/ninja-build.com"
+      - "C:/Windows/System32/ninja-build.exe"
+      - "C:/Windows/System32/ninja-build"
+      - "C:/Windows/System32/ninja.com"
+      - "C:/Windows/System32/ninja.exe"
+      - "C:/Windows/System32/ninja"
+      - "C:/Windows/System32/samu.com"
+      - "C:/Windows/System32/samu.exe"
+      - "C:/Windows/System32/samu"
+      - "C:/Windows/ninja-build.com"
+      - "C:/Windows/ninja-build.exe"
+      - "C:/Windows/ninja-build"
+      - "C:/Windows/ninja.com"
+      - "C:/Windows/ninja.exe"
+      - "C:/Windows/ninja"
+      - "C:/Windows/samu.com"
+      - "C:/Windows/samu.exe"
+      - "C:/Windows/samu"
+      - "C:/Windows/System32/wbem/ninja-build.com"
+      - "C:/Windows/System32/wbem/ninja-build.exe"
+      - "C:/Windows/System32/wbem/ninja-build"
+      - "C:/Windows/System32/wbem/ninja.com"
+      - "C:/Windows/System32/wbem/ninja.exe"
+      - "C:/Windows/System32/wbem/ninja"
+      - "C:/Windows/System32/wbem/samu.com"
+      - "C:/Windows/System32/wbem/samu.exe"
+      - "C:/Windows/System32/wbem/samu"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu"
+      - "C:/Windows/System32/OpenSSH/ninja-build.com"
+      - "C:/Windows/System32/OpenSSH/ninja-build.exe"
+      - "C:/Windows/System32/OpenSSH/ninja-build"
+      - "C:/Windows/System32/OpenSSH/ninja.com"
+      - "C:/Windows/System32/OpenSSH/ninja.exe"
+      - "C:/Windows/System32/OpenSSH/ninja"
+      - "C:/Windows/System32/OpenSSH/samu.com"
+      - "C:/Windows/System32/OpenSSH/samu.exe"
+      - "C:/Windows/System32/OpenSSH/samu"
+      - "C:/Program Files/Microsoft VS Code/bin/ninja-build.com"
+      - "C:/Program Files/Microsoft VS Code/bin/ninja-build.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/ninja-build"
+      - "C:/Program Files/Microsoft VS Code/bin/ninja.com"
+      - "C:/Program Files/Microsoft VS Code/bin/ninja.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/ninja"
+      - "C:/Program Files/Microsoft VS Code/bin/samu.com"
+      - "C:/Program Files/Microsoft VS Code/bin/samu.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/samu"
+      - "C:/Program Files/Git/cmd/ninja-build.com"
+      - "C:/Program Files/Git/cmd/ninja-build.exe"
+      - "C:/Program Files/Git/cmd/ninja-build"
+      - "C:/Program Files/Git/cmd/ninja.com"
+      - "C:/Program Files/Git/cmd/ninja.exe"
+      - "C:/Program Files/Git/cmd/ninja"
+      - "C:/Program Files/Git/cmd/samu.com"
+      - "C:/Program Files/Git/cmd/samu.exe"
+      - "C:/Program Files/Git/cmd/samu"
+      - "C:/Program Files/nodejs/ninja-build.com"
+      - "C:/Program Files/nodejs/ninja-build.exe"
+      - "C:/Program Files/nodejs/ninja-build"
+      - "C:/Program Files/nodejs/ninja.com"
+      - "C:/Program Files/nodejs/ninja.exe"
+      - "C:/Program Files/nodejs/ninja"
+      - "C:/Program Files/nodejs/samu.com"
+      - "C:/Program Files/nodejs/samu.exe"
+      - "C:/Program Files/nodejs/samu"
+      - "C:/Program Files/vcpkg/ninja-build.com"
+      - "C:/Program Files/vcpkg/ninja-build.exe"
+      - "C:/Program Files/vcpkg/ninja-build"
+      - "C:/Program Files/vcpkg/ninja.com"
+      - "C:/Program Files/vcpkg/ninja.exe"
+      - "C:/Program Files/vcpkg/ninja"
+      - "C:/Program Files/vcpkg/samu.com"
+      - "C:/Program Files/vcpkg/samu.exe"
+      - "C:/Program Files/vcpkg/samu"
+      - "C:/cygwin64/bin/ninja-build.com"
+      - "C:/cygwin64/bin/ninja-build.exe"
+      - "C:/cygwin64/bin/ninja-build"
+      - "C:/cygwin64/bin/ninja.com"
+      - "C:/cygwin64/bin/ninja.exe"
+      - "C:/cygwin64/bin/ninja"
+      - "C:/cygwin64/bin/samu.com"
+      - "C:/cygwin64/bin/samu.exe"
+      - "C:/cygwin64/bin/samu"
+      - "C:/Program Files/doxygen/bin/ninja-build.com"
+      - "C:/Program Files/doxygen/bin/ninja-build.exe"
+      - "C:/Program Files/doxygen/bin/ninja-build"
+      - "C:/Program Files/doxygen/bin/ninja.com"
+      - "C:/Program Files/doxygen/bin/ninja.exe"
+      - "C:/Program Files/doxygen/bin/ninja"
+      - "C:/Program Files/doxygen/bin/samu.com"
+      - "C:/Program Files/doxygen/bin/samu.exe"
+      - "C:/Program Files/doxygen/bin/samu"
+      - "C:/Program Files/CMake/bin/ninja-build.com"
+      - "C:/Program Files/CMake/bin/ninja-build.exe"
+      - "C:/Program Files/CMake/bin/ninja-build"
+      - "C:/Program Files/CMake/bin/ninja.com"
+      - "C:/Program Files/CMake/bin/ninja.exe"
+      - "C:/Program Files/CMake/bin/ninja"
+      - "C:/Program Files/CMake/bin/samu.com"
+      - "C:/Program Files/CMake/bin/samu.exe"
+      - "C:/Program Files/CMake/bin/samu"
+      - "C:/Program Files/ninja-win/ninja-build.com"
+      - "C:/Program Files/ninja-win/ninja-build.exe"
+      - "C:/Program Files/ninja-win/ninja-build"
+      - "C:/Program Files/ninja-win/ninja.com"
+    found: "C:/Program Files/ninja-win/ninja.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Git/mingw64/bin/cc.com"
+      - "C:/Program Files/Git/mingw64/bin/cc.exe"
+      - "C:/Program Files/Git/mingw64/bin/cc"
+      - "C:/Program Files/Git/mingw64/bin/gcc.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc"
+      - "C:/Program Files/Git/mingw64/bin/cl.com"
+      - "C:/Program Files/Git/mingw64/bin/cl.exe"
+      - "C:/Program Files/Git/mingw64/bin/cl"
+      - "C:/Program Files/Git/mingw64/bin/bcc.com"
+      - "C:/Program Files/Git/mingw64/bin/bcc.exe"
+      - "C:/Program Files/Git/mingw64/bin/bcc"
+      - "C:/Program Files/Git/mingw64/bin/xlc.com"
+      - "C:/Program Files/Git/mingw64/bin/xlc.exe"
+      - "C:/Program Files/Git/mingw64/bin/xlc"
+      - "C:/Program Files/Git/mingw64/bin/icx.com"
+      - "C:/Program Files/Git/mingw64/bin/icx.exe"
+      - "C:/Program Files/Git/mingw64/bin/icx"
+      - "C:/Program Files/Git/mingw64/bin/clang.com"
+      - "C:/Program Files/Git/mingw64/bin/clang.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang"
+      - "C:/Program Files/Git/usr/bin/cc.com"
+      - "C:/Program Files/Git/usr/bin/cc.exe"
+      - "C:/Program Files/Git/usr/bin/cc"
+      - "C:/Program Files/Git/usr/bin/gcc.com"
+      - "C:/Program Files/Git/usr/bin/gcc.exe"
+      - "C:/Program Files/Git/usr/bin/gcc"
+      - "C:/Program Files/Git/usr/bin/cl.com"
+      - "C:/Program Files/Git/usr/bin/cl.exe"
+      - "C:/Program Files/Git/usr/bin/cl"
+      - "C:/Program Files/Git/usr/bin/bcc.com"
+      - "C:/Program Files/Git/usr/bin/bcc.exe"
+      - "C:/Program Files/Git/usr/bin/bcc"
+      - "C:/Program Files/Git/usr/bin/xlc.com"
+      - "C:/Program Files/Git/usr/bin/xlc.exe"
+      - "C:/Program Files/Git/usr/bin/xlc"
+      - "C:/Program Files/Git/usr/bin/icx.com"
+      - "C:/Program Files/Git/usr/bin/icx.exe"
+      - "C:/Program Files/Git/usr/bin/icx"
+      - "C:/Program Files/Git/usr/bin/clang.com"
+      - "C:/Program Files/Git/usr/bin/clang.exe"
+      - "C:/Program Files/Git/usr/bin/clang"
+      - "C:/Users/cnman/bin/cc.com"
+      - "C:/Users/cnman/bin/cc.exe"
+      - "C:/Users/cnman/bin/cc"
+      - "C:/Users/cnman/bin/gcc.com"
+      - "C:/Users/cnman/bin/gcc.exe"
+      - "C:/Users/cnman/bin/gcc"
+      - "C:/Users/cnman/bin/cl.com"
+      - "C:/Users/cnman/bin/cl.exe"
+      - "C:/Users/cnman/bin/cl"
+      - "C:/Users/cnman/bin/bcc.com"
+      - "C:/Users/cnman/bin/bcc.exe"
+      - "C:/Users/cnman/bin/bcc"
+      - "C:/Users/cnman/bin/xlc.com"
+      - "C:/Users/cnman/bin/xlc.exe"
+      - "C:/Users/cnman/bin/xlc"
+      - "C:/Users/cnman/bin/icx.com"
+      - "C:/Users/cnman/bin/icx.exe"
+      - "C:/Users/cnman/bin/icx"
+      - "C:/Users/cnman/bin/clang.com"
+      - "C:/Users/cnman/bin/clang.exe"
+      - "C:/Users/cnman/bin/clang"
+      - "C:/Program Files/Microsoft VS Code/cc.com"
+      - "C:/Program Files/Microsoft VS Code/cc.exe"
+      - "C:/Program Files/Microsoft VS Code/cc"
+      - "C:/Program Files/Microsoft VS Code/gcc.com"
+      - "C:/Program Files/Microsoft VS Code/gcc.exe"
+      - "C:/Program Files/Microsoft VS Code/gcc"
+      - "C:/Program Files/Microsoft VS Code/cl.com"
+      - "C:/Program Files/Microsoft VS Code/cl.exe"
+      - "C:/Program Files/Microsoft VS Code/cl"
+      - "C:/Program Files/Microsoft VS Code/bcc.com"
+      - "C:/Program Files/Microsoft VS Code/bcc.exe"
+      - "C:/Program Files/Microsoft VS Code/bcc"
+      - "C:/Program Files/Microsoft VS Code/xlc.com"
+      - "C:/Program Files/Microsoft VS Code/xlc.exe"
+      - "C:/Program Files/Microsoft VS Code/xlc"
+      - "C:/Program Files/Microsoft VS Code/icx.com"
+      - "C:/Program Files/Microsoft VS Code/icx.exe"
+      - "C:/Program Files/Microsoft VS Code/icx"
+      - "C:/Program Files/Microsoft VS Code/clang.com"
+      - "C:/Program Files/Microsoft VS Code/clang.exe"
+      - "C:/Program Files/Microsoft VS Code/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files/Microsoft VS Code/bin/cc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/cc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/cc"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc"
+      - "C:/Program Files/Microsoft VS Code/bin/cl.com"
+      - "C:/Program Files/Microsoft VS Code/bin/cl.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/cl"
+      - "C:/Program Files/Microsoft VS Code/bin/bcc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/bcc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/bcc"
+      - "C:/Program Files/Microsoft VS Code/bin/xlc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/xlc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/xlc"
+      - "C:/Program Files/Microsoft VS Code/bin/icx.com"
+      - "C:/Program Files/Microsoft VS Code/bin/icx.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/icx"
+      - "C:/Program Files/Microsoft VS Code/bin/clang.com"
+      - "C:/Program Files/Microsoft VS Code/bin/clang.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Program Files/nodejs/cc.com"
+      - "C:/Program Files/nodejs/cc.exe"
+      - "C:/Program Files/nodejs/cc"
+      - "C:/Program Files/nodejs/gcc.com"
+      - "C:/Program Files/nodejs/gcc.exe"
+      - "C:/Program Files/nodejs/gcc"
+      - "C:/Program Files/nodejs/cl.com"
+      - "C:/Program Files/nodejs/cl.exe"
+      - "C:/Program Files/nodejs/cl"
+      - "C:/Program Files/nodejs/bcc.com"
+      - "C:/Program Files/nodejs/bcc.exe"
+      - "C:/Program Files/nodejs/bcc"
+      - "C:/Program Files/nodejs/xlc.com"
+      - "C:/Program Files/nodejs/xlc.exe"
+      - "C:/Program Files/nodejs/xlc"
+      - "C:/Program Files/nodejs/icx.com"
+      - "C:/Program Files/nodejs/icx.exe"
+      - "C:/Program Files/nodejs/icx"
+      - "C:/Program Files/nodejs/clang.com"
+      - "C:/Program Files/nodejs/clang.exe"
+      - "C:/Program Files/nodejs/clang"
+      - "C:/Program Files/vcpkg/cc.com"
+      - "C:/Program Files/vcpkg/cc.exe"
+      - "C:/Program Files/vcpkg/cc"
+      - "C:/Program Files/vcpkg/gcc.com"
+      - "C:/Program Files/vcpkg/gcc.exe"
+      - "C:/Program Files/vcpkg/gcc"
+      - "C:/Program Files/vcpkg/cl.com"
+      - "C:/Program Files/vcpkg/cl.exe"
+      - "C:/Program Files/vcpkg/cl"
+      - "C:/Program Files/vcpkg/bcc.com"
+      - "C:/Program Files/vcpkg/bcc.exe"
+      - "C:/Program Files/vcpkg/bcc"
+      - "C:/Program Files/vcpkg/xlc.com"
+      - "C:/Program Files/vcpkg/xlc.exe"
+      - "C:/Program Files/vcpkg/xlc"
+      - "C:/Program Files/vcpkg/icx.com"
+      - "C:/Program Files/vcpkg/icx.exe"
+      - "C:/Program Files/vcpkg/icx"
+      - "C:/Program Files/vcpkg/clang.com"
+      - "C:/Program Files/vcpkg/clang.exe"
+      - "C:/Program Files/vcpkg/clang"
+      - "C:/cygwin64/bin/cc.com"
+      - "C:/cygwin64/bin/cc.exe"
+    found: "C:/cygwin64/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/ar.com"
+    found: "C:/cygwin64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/ranlib.com"
+    found: "C:/cygwin64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/strip.com"
+    found: "C:/cygwin64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/ld.com"
+    found: "C:/cygwin64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/nm.com"
+    found: "C:/cygwin64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/objdump.com"
+    found: "C:/cygwin64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/objcopy.com"
+    found: "C:/cygwin64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/readelf.com"
+    found: "C:/cygwin64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/dlltool.com"
+    found: "C:/cygwin64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/addr2line.com"
+    found: "C:/cygwin64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/tapi.com"
+      - "C:/cygwin64/bin/tapi.exe"
+      - "C:/cygwin64/bin/tapi"
+      - "C:/Program Files/Git/mingw64/bin/tapi.com"
+      - "C:/Program Files/Git/mingw64/bin/tapi.exe"
+      - "C:/Program Files/Git/mingw64/bin/tapi"
+      - "C:/Program Files/Git/usr/bin/tapi.com"
+      - "C:/Program Files/Git/usr/bin/tapi.exe"
+      - "C:/Program Files/Git/usr/bin/tapi"
+      - "C:/Users/cnman/bin/tapi.com"
+      - "C:/Users/cnman/bin/tapi.exe"
+      - "C:/Users/cnman/bin/tapi"
+      - "C:/Program Files/Microsoft VS Code/tapi.com"
+      - "C:/Program Files/Microsoft VS Code/tapi.exe"
+      - "C:/Program Files/Microsoft VS Code/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/Microsoft VS Code/bin/tapi.com"
+      - "C:/Program Files/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/vcpkg/tapi.com"
+      - "C:/Program Files/vcpkg/tapi.exe"
+      - "C:/Program Files/vcpkg/tapi"
+      - "C:/Program Files/doxygen/bin/tapi.com"
+      - "C:/Program Files/doxygen/bin/tapi.exe"
+      - "C:/Program Files/doxygen/bin/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Program Files/ninja-win/tapi.com"
+      - "C:/Program Files/ninja-win/tapi.exe"
+      - "C:/Program Files/ninja-win/tapi"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/cnman/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/cnman/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/cnman/AppData/Roaming/npm/tapi"
+      - "C:/Users/cnman/AppData/Local/Python/bin/tapi.com"
+      - "C:/Users/cnman/AppData/Local/Python/bin/tapi.exe"
+      - "C:/Users/cnman/AppData/Local/Python/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/c++.com"
+    found: "C:/cygwin64/bin/c++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/cygwin64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        F:/CDT-master/build_check/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.4"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/gcc-ar-13.4.com"
+      - "C:/cygwin64/bin/gcc-ar-13.4.exe"
+      - "C:/cygwin64/bin/gcc-ar-13.4"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-13.4.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-13.4.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-13.4"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-13.4.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-13.4.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-13.4"
+      - "C:/Users/cnman/bin/gcc-ar-13.4.com"
+      - "C:/Users/cnman/bin/gcc-ar-13.4.exe"
+      - "C:/Users/cnman/bin/gcc-ar-13.4"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar-13.4.com"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar-13.4.exe"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar-13.4"
+      - "C:/Windows/System32/gcc-ar-13.4.com"
+      - "C:/Windows/System32/gcc-ar-13.4.exe"
+      - "C:/Windows/System32/gcc-ar-13.4"
+      - "C:/Windows/gcc-ar-13.4.com"
+      - "C:/Windows/gcc-ar-13.4.exe"
+      - "C:/Windows/gcc-ar-13.4"
+      - "C:/Windows/System32/wbem/gcc-ar-13.4.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.4.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.4"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.4.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.4.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.4"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.4.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.4.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.4"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar-13.4.com"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar-13.4.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar-13.4"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.4.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.4.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.4"
+      - "C:/Program Files/nodejs/gcc-ar-13.4.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.4.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13.4"
+      - "C:/Program Files/vcpkg/gcc-ar-13.4.com"
+      - "C:/Program Files/vcpkg/gcc-ar-13.4.exe"
+      - "C:/Program Files/vcpkg/gcc-ar-13.4"
+      - "C:/Program Files/doxygen/bin/gcc-ar-13.4.com"
+      - "C:/Program Files/doxygen/bin/gcc-ar-13.4.exe"
+      - "C:/Program Files/doxygen/bin/gcc-ar-13.4"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.4.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.4.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.4"
+      - "C:/Program Files/ninja-win/gcc-ar-13.4.com"
+      - "C:/Program Files/ninja-win/gcc-ar-13.4.exe"
+      - "C:/Program Files/ninja-win/gcc-ar-13.4"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.4.com"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.4.exe"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.4"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar-13.4.com"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar-13.4.exe"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar-13.4"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar-13.4.com"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar-13.4.exe"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar-13.4"
+      - "C:/cygwin64/bin/gcc-ar-13.com"
+      - "C:/cygwin64/bin/gcc-ar-13.exe"
+      - "C:/cygwin64/bin/gcc-ar-13"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-13.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-13.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar-13"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-13.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-13.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ar-13"
+      - "C:/Users/cnman/bin/gcc-ar-13.com"
+      - "C:/Users/cnman/bin/gcc-ar-13.exe"
+      - "C:/Users/cnman/bin/gcc-ar-13"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar-13.com"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar-13.exe"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar-13.com"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar-13.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar-13"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13"
+      - "C:/Program Files/nodejs/gcc-ar-13.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13"
+      - "C:/Program Files/vcpkg/gcc-ar-13.com"
+      - "C:/Program Files/vcpkg/gcc-ar-13.exe"
+      - "C:/Program Files/vcpkg/gcc-ar-13"
+      - "C:/Program Files/doxygen/bin/gcc-ar-13.com"
+      - "C:/Program Files/doxygen/bin/gcc-ar-13.exe"
+      - "C:/Program Files/doxygen/bin/gcc-ar-13"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-13"
+      - "C:/Program Files/ninja-win/gcc-ar-13.com"
+      - "C:/Program Files/ninja-win/gcc-ar-13.exe"
+      - "C:/Program Files/ninja-win/gcc-ar-13"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar-13.com"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar-13.exe"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar-13"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar-13.com"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar-13.exe"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar-13"
+      - "C:/cygwin64/bin/gcc-ar13.com"
+      - "C:/cygwin64/bin/gcc-ar13.exe"
+      - "C:/cygwin64/bin/gcc-ar13"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar13.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar13.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ar13"
+      - "C:/Program Files/Git/usr/bin/gcc-ar13.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ar13.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ar13"
+      - "C:/Users/cnman/bin/gcc-ar13.com"
+      - "C:/Users/cnman/bin/gcc-ar13.exe"
+      - "C:/Users/cnman/bin/gcc-ar13"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar13.com"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar13.exe"
+      - "C:/Program Files/Microsoft VS Code/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar13.com"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar13.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ar13"
+      - "C:/Program Files/Git/cmd/gcc-ar13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar13"
+      - "C:/Program Files/nodejs/gcc-ar13.com"
+      - "C:/Program Files/nodejs/gcc-ar13.exe"
+      - "C:/Program Files/nodejs/gcc-ar13"
+      - "C:/Program Files/vcpkg/gcc-ar13.com"
+      - "C:/Program Files/vcpkg/gcc-ar13.exe"
+      - "C:/Program Files/vcpkg/gcc-ar13"
+      - "C:/Program Files/doxygen/bin/gcc-ar13.com"
+      - "C:/Program Files/doxygen/bin/gcc-ar13.exe"
+      - "C:/Program Files/doxygen/bin/gcc-ar13"
+      - "C:/Program Files/CMake/bin/gcc-ar13.com"
+      - "C:/Program Files/CMake/bin/gcc-ar13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar13"
+      - "C:/Program Files/ninja-win/gcc-ar13.com"
+      - "C:/Program Files/ninja-win/gcc-ar13.exe"
+      - "C:/Program Files/ninja-win/gcc-ar13"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar13.com"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar13.exe"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ar13"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar13.com"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar13.exe"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ar13"
+      - "C:/cygwin64/bin/gcc-ar.com"
+    found: "C:/cygwin64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.4"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/cygwin64/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Users/cnman/bin/"
+      - "C:/Program Files/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/vcpkg/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/ninja-win/"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/cnman/AppData/Roaming/npm/"
+      - "C:/Users/cnman/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/cygwin64/bin/gcc-ranlib-13.4.com"
+      - "C:/cygwin64/bin/gcc-ranlib-13.4.exe"
+      - "C:/cygwin64/bin/gcc-ranlib-13.4"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-13.4.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-13.4"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-13.4.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-13.4"
+      - "C:/Users/cnman/bin/gcc-ranlib-13.4.com"
+      - "C:/Users/cnman/bin/gcc-ranlib-13.4.exe"
+      - "C:/Users/cnman/bin/gcc-ranlib-13.4"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib-13.4.com"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib-13.4"
+      - "C:/Windows/System32/gcc-ranlib-13.4.com"
+      - "C:/Windows/System32/gcc-ranlib-13.4.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.4"
+      - "C:/Windows/gcc-ranlib-13.4.com"
+      - "C:/Windows/gcc-ranlib-13.4.exe"
+      - "C:/Windows/gcc-ranlib-13.4"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.4.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.4.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.4"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.4.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.4.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.4"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.4.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.4.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.4"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib-13.4.com"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib-13.4"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.4.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.4"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.4.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.4"
+      - "C:/Program Files/vcpkg/gcc-ranlib-13.4.com"
+      - "C:/Program Files/vcpkg/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/vcpkg/gcc-ranlib-13.4"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib-13.4.com"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib-13.4"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.4.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.4"
+      - "C:/Program Files/ninja-win/gcc-ranlib-13.4.com"
+      - "C:/Program Files/ninja-win/gcc-ranlib-13.4.exe"
+      - "C:/Program Files/ninja-win/gcc-ranlib-13.4"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.4.com"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.4.exe"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.4"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib-13.4.com"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib-13.4.exe"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib-13.4"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib-13.4.com"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib-13.4.exe"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib-13.4"
+      - "C:/cygwin64/bin/gcc-ranlib-13.com"
+      - "C:/cygwin64/bin/gcc-ranlib-13.exe"
+      - "C:/cygwin64/bin/gcc-ranlib-13"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib-13"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib-13"
+      - "C:/Users/cnman/bin/gcc-ranlib-13.com"
+      - "C:/Users/cnman/bin/gcc-ranlib-13.exe"
+      - "C:/Users/cnman/bin/gcc-ranlib-13"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib-13.com"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib-13.exe"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib-13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13"
+      - "C:/Program Files/vcpkg/gcc-ranlib-13.com"
+      - "C:/Program Files/vcpkg/gcc-ranlib-13.exe"
+      - "C:/Program Files/vcpkg/gcc-ranlib-13"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib-13"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-13"
+      - "C:/Program Files/ninja-win/gcc-ranlib-13.com"
+      - "C:/Program Files/ninja-win/gcc-ranlib-13.exe"
+      - "C:/Program Files/ninja-win/gcc-ranlib-13"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib-13.com"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib-13.exe"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib-13"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib-13.com"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib-13.exe"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib-13"
+      - "C:/cygwin64/bin/gcc-ranlib13.com"
+      - "C:/cygwin64/bin/gcc-ranlib13.exe"
+      - "C:/cygwin64/bin/gcc-ranlib13"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib13.com"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/mingw64/bin/gcc-ranlib13"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib13.com"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/usr/bin/gcc-ranlib13"
+      - "C:/Users/cnman/bin/gcc-ranlib13.com"
+      - "C:/Users/cnman/bin/gcc-ranlib13.exe"
+      - "C:/Users/cnman/bin/gcc-ranlib13"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib13.com"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib13.exe"
+      - "C:/Program Files/Microsoft VS Code/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib13.com"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/gcc-ranlib13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13"
+      - "C:/Program Files/nodejs/gcc-ranlib13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib13"
+      - "C:/Program Files/vcpkg/gcc-ranlib13.com"
+      - "C:/Program Files/vcpkg/gcc-ranlib13.exe"
+      - "C:/Program Files/vcpkg/gcc-ranlib13"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib13.com"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/doxygen/bin/gcc-ranlib13"
+      - "C:/Program Files/CMake/bin/gcc-ranlib13.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib13"
+      - "C:/Program Files/ninja-win/gcc-ranlib13.com"
+      - "C:/Program Files/ninja-win/gcc-ranlib13.exe"
+      - "C:/Program Files/ninja-win/gcc-ranlib13"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/cnman/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib13.com"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib13.exe"
+      - "C:/Users/cnman/AppData/Roaming/npm/gcc-ranlib13"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib13.com"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib13.exe"
+      - "C:/Users/cnman/AppData/Local/Python/bin/gcc-ranlib13"
+      - "C:/cygwin64/bin/gcc-ranlib.com"
+    found: "C:/cygwin64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-smfzem"
+      binary: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-smfzem"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-smfzem'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_07733
+        
+        CreateProcess failed. Command attempted:
+        "C:\\cygwin64\\bin\\cc    -o CMakeFiles\\cmTC_07733.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c""
+        ninja: fatal: CreateProcess: Access is denied.\x0d
+        
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/cygwin64/bin/cc"
+    directories:
+      source: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-ovw125"
+      binary: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-ovw125"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-ovw125'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_bcb48
+        
+        CreateProcess failed. Command attempted:
+        "C:\\cygwin64\\bin\\cc    -o CMakeFiles\\cmTC_bcb48.dir\\testCCompiler.c.obj -c F:\\CDT-master\\build_check\\CMakeFiles\\CMakeScratch\\TryCompile-ovw125\\testCCompiler.c"
+        ninja: fatal: CreateProcess: Access is denied.\x0d
+        
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/cygwin64/bin/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      operation not permitted
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\cnman\\bin"
+        - "C:\\Program Files\\Microsoft VS Code"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\vcpkg\\"
+        - "C:\\cygwin64\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\ninja-win"
+        - "C:\\Users\\cnman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\cnman\\AppData\\Roaming\\npm"
+        - "C:\\Users\\cnman\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CDT_root"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/cygwin64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        F:/CDT-master/build_check/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-bniw5h"
+      binary: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-bniw5h"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-bniw5h'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_6d81e
+        
+        CreateProcess failed. Command attempted:
+        "C:\\cygwin64\\bin\\cc    -o CMakeFiles\\cmTC_6d81e.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c""
+        ninja: fatal: CreateProcess: Access is denied.\x0d
+        
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/cygwin64/bin/cc"
+    directories:
+      source: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-j4rt4u"
+      binary: "F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-j4rt4u"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/CDT-master/build_check/CMakeFiles/CMakeScratch/TryCompile-j4rt4u'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_8a099
+        
+        CreateProcess failed. Command attempted:
+        "C:\\cygwin64\\bin\\cc    -o CMakeFiles\\cmTC_8a099.dir\\testCCompiler.c.obj -c F:\\CDT-master\\build_check\\CMakeFiles\\CMakeScratch\\TryCompile-j4rt4u\\testCCompiler.c"
+        ninja: fatal: CreateProcess: Access is denied.\x0d
+        
+        
+      exitCode: 1
+...
