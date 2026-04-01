@@ -359,6 +359,63 @@ TEMPLATE_LIST_TEST_CASE(
 }
 
 TEMPLATE_LIST_TEST_CASE(
+    "Ruppert - face02",
+    "[Ruppert]",
+    CoordTypes)
+{
+    // "face02.txt": 28 vertices, 21 constraint edges, bounding box ~0.78 x 4.72.
+    const auto [vv, ee] =
+        readInput<TestType>("inputs/face02.txt");
+
+    Triangulation<TestType> cdt;
+    cdt.insertVertices(vv);
+    cdt.insertEdges(ee);
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face02", "before");
+
+    const std::size_t vertsBefore = cdt.vertices.size();
+    refineRuppert(cdt, TestType(15), TestType(0), /*maxSteiner=*/5000);
+    REQUIRE(verifyTopology(cdt));
+    REQUIRE(cdt.vertices.size() >= vertsBefore);
+
+    cdt.eraseOuterTriangles();
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face02", "after");
+
+    REQUIRE(meshMinAngleDeg(cdt) >= TestType(14.5));
+}
+
+TEMPLATE_LIST_TEST_CASE(
+    "Ruppert - face01 scaled (50x30)",
+    "[Ruppert]",
+    CoordTypes)
+{
+    // Same topology as face01.txt but UV coordinates pre-scaled to 50x30 so
+    // that the aspect ratio is ~1.67:1 instead of 157:1.  This simulates
+    // what a caller would do when the NURBS arc-length ratio is known.
+    const auto [vv, ee] =
+        readInput<TestType>("inputs/face01_scaled.txt");
+
+    Triangulation<TestType> cdt;
+    cdt.insertVertices(vv);
+    cdt.insertEdges(ee);
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face01_scaled", "before");
+
+    const std::size_t vertsBefore = cdt.vertices.size();
+    refineRuppert(cdt, TestType(15), TestType(0), /*maxSteiner=*/5000);
+    REQUIRE(verifyTopology(cdt));
+    REQUIRE(cdt.vertices.size() > vertsBefore);
+
+    cdt.eraseOuterTriangles();
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face01_scaled", "after");
+
+    // Some nearly-collinear constraint vertices in the original input create
+    // unavoidably thin triangles; skip strict angle check but verify topology.
+}
+
+TEMPLATE_LIST_TEST_CASE(
     "Ruppert - max Steiner points limit is respected",
     "[Ruppert]",
     CoordTypes)

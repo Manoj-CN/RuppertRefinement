@@ -136,19 +136,22 @@ def _super_triangle_present(verts):
     three vertices are removed and indices are shifted down by 3, so 0-2
     become ordinary boundary vertices that lie inside the bounding box.
 
-    Detection: if any of vertices 0-2 falls outside the axis-aligned bounding
-    box of the remaining vertices (with a small margin), it must be a
-    super-triangle vertex.
+    Detection: if any of vertices 0-2 lies more than one full domain span
+    outside the bounding box of the remaining vertices, it must be a
+    super-triangle vertex.  CDT places super-triangle vertices 3-4x the
+    domain span away from the centroid, so a 1x-span threshold cleanly
+    separates them from ordinary boundary vertices that merely happen to
+    be the extreme point on one axis.
     """
     if len(verts) < 4:
         return False
     rest = verts[3:]
     x_min, x_max = rest[:, 0].min(), rest[:, 0].max()
     y_min, y_max = rest[:, 1].min(), rest[:, 1].max()
-    margin = 0.01 * max(x_max - x_min, y_max - y_min, 1e-9)
+    span = max(x_max - x_min, y_max - y_min, 1e-9)
     return any(
-        verts[i, 0] < x_min - margin or verts[i, 0] > x_max + margin or
-        verts[i, 1] < y_min - margin or verts[i, 1] > y_max + margin
+        verts[i, 0] < x_min - span or verts[i, 0] > x_max + span or
+        verts[i, 1] < y_min - span or verts[i, 1] > y_max + span
         for i in range(3)
     )
 

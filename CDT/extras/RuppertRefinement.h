@@ -222,15 +222,23 @@ void splitFixedEdgePublic(
  * @param maxEdgeLength      maximum allowed edge length, 0 = no limit
  * @param maxSteinerPoints   Steiner point insertion limit, 0 = no limit
  * @param minDepth           minimum triangle layer depth to refine (default: 1)
+ * @return true if refinement completed successfully; false if an error
+ *         occurred and the original triangulation was restored.
  */
 template <typename T, typename TNearPointLocator>
-void refineRuppert(
+bool refineRuppert(
     Triangulation<T, TNearPointLocator>& cdt,
     T minAngleDegrees = T(20),
     T maxEdgeLength = T(0),
     std::size_t maxSteinerPoints = 0,
     LayerDepth minDepth = 1)
 {
+    // Save a snapshot so we can restore if refinement fails
+    const Triangulation<T, TNearPointLocator> snapshot = cdt;
+#ifdef CDT_CXX11_IS_SUPPORTED
+    try
+    {
+#endif
     // Precompute quality bound: B = 1 / (2 * sin(minAngle))
     // Triangle is bad when R / lmin > B, i.e. R^2 / lmin^2 > B^2
     const T pi = T(3.14159265358979323846);
@@ -266,7 +274,7 @@ void refineRuppert(
         for(TriInd iT(0); iT < TriInd(cdt.triangles.size()); ++iT)
         {
             if(maxSteinerPoints > 0 && insertionCount >= maxSteinerPoints)
-                return;
+                return true;
 
             const Triangle& tri = cdt.triangles[iT];
 
@@ -343,11 +351,9 @@ void refineRuppert(
             else
             {
                 // Insert the circumcenter as a new Steiner point.
-                // Guard against circumcenters that fall outside the
-                // super-triangle (can happen for very flat triangles near
-                // the domain boundary when there are no constraints).
-                // If insertion fails we simply leave the triangle as-is and
-                // continue looking for other bad triangles.
+                // A per-triangle insertion failure (e.g. circumcenter outside
+                // the super-triangle) is non-fatal: skip this triangle and
+                // continue looking for other bad ones.
 #ifdef CDT_CXX11_IS_SUPPORTED
                 try
                 {
@@ -357,7 +363,7 @@ void refineRuppert(
                 }
                 catch(const std::exception&)
                 {
-                    continue; // skip this triangle, try the next bad one
+                    continue;
                 }
 #else
                 std::vector<V2d<T> > newVerts(1, cc);
@@ -372,6 +378,17 @@ void refineRuppert(
             break;
         }
     }
+#ifdef CDT_CXX11_IS_SUPPORTED
+    }
+    catch(...)
+    {
+        // Refinement failed: restore the triangulation to its pre-refinement
+        // state so the caller always gets a valid (if unrefined) mesh back.
+        cdt = snapshot;
+        return false;
+    }
+#endif
+    return true;
 }
 
 } // namespace CDT
