@@ -362,7 +362,7 @@ void refineRuppert(
 #else
                 std::vector<V2d<T> > newVerts(1, cc);
                 cdt.insertVertices(newVerts);
-                ++steinerCount;
+                ++insertionCount;
 #endif
             }
 

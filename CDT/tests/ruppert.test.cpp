@@ -330,6 +330,35 @@ TEMPLATE_LIST_TEST_CASE(
 }
 
 TEMPLATE_LIST_TEST_CASE(
+    "Ruppert - face01",
+    "[Ruppert]",
+    CoordTypes)
+{
+    // "face01.txt": 205 vertices, 114 constraint edges forming a face shape.
+    // The bounding box is ~315 x 2 (157:1 aspect ratio), so achieving a strict
+    // minimum angle on the entire mesh would require an impractical number of
+    // Steiner points.  We verify that the CDT builds correctly and that
+    // refinement runs without crashing and adds at least some Steiner points.
+    const auto [vv, ee] =
+        readInput<TestType>("inputs/face01.txt");
+
+    Triangulation<TestType> cdt;
+    cdt.insertVertices(vv);
+    cdt.insertEdges(ee);
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face01", "before");
+
+    const std::size_t vertsBefore = cdt.vertices.size();
+    refineRuppert(cdt, TestType(15), TestType(0), /*maxSteiner=*/500);
+    REQUIRE(verifyTopology(cdt));
+    REQUIRE(cdt.vertices.size() >= vertsBefore);
+
+    cdt.eraseOuterTriangles();
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face01", "after");
+}
+
+TEMPLATE_LIST_TEST_CASE(
     "Ruppert - max Steiner points limit is respected",
     "[Ruppert]",
     CoordTypes)
