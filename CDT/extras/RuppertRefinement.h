@@ -235,10 +235,8 @@ bool refineRuppert(
 {
     // Save a snapshot so we can restore if refinement fails
     const Triangulation<T, TNearPointLocator> snapshot = cdt;
-#ifdef CDT_CXX11_IS_SUPPORTED
     try
     {
-#endif
     // Precompute quality bound: B = 1 / (2 * sin(minAngle))
     // Triangle is bad when R / lmin > B, i.e. R^2 / lmin^2 > B^2
     const T pi = T(3.14159265358979323846);
@@ -354,7 +352,6 @@ bool refineRuppert(
                 // A per-triangle insertion failure (e.g. circumcenter outside
                 // the super-triangle) is non-fatal: skip this triangle and
                 // continue looking for other bad ones.
-#ifdef CDT_CXX11_IS_SUPPORTED
                 try
                 {
                     std::vector<V2d<T> > newVerts(1, cc);
@@ -365,11 +362,6 @@ bool refineRuppert(
                 {
                     continue;
                 }
-#else
-                std::vector<V2d<T> > newVerts(1, cc);
-                cdt.insertVertices(newVerts);
-                ++insertionCount;
-#endif
             }
 
             anyChange = true;
@@ -378,8 +370,7 @@ bool refineRuppert(
             break;
         }
     }
-#ifdef CDT_CXX11_IS_SUPPORTED
-    }
+    } // end try
     catch(...)
     {
         // Refinement failed: restore the triangulation to its pre-refinement
@@ -387,7 +378,6 @@ bool refineRuppert(
         cdt = snapshot;
         return false;
     }
-#endif
     return true;
 }
 
