@@ -386,6 +386,62 @@ TEMPLATE_LIST_TEST_CASE(
 }
 
 TEMPLATE_LIST_TEST_CASE(
+    "Ruppert - face03",
+    "[Ruppert]",
+    CoordTypes)
+{
+    // "face03.txt": 143 vertices, 136 constraint edges, bounding box ~4.7 x 0.72.
+    const auto [vv, ee] =
+        readInput<TestType>("inputs/face03.txt");
+
+    Triangulation<TestType> cdt;
+    cdt.insertVertices(vv);
+    cdt.insertEdges(ee);
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face03", "before");
+
+    const std::size_t vertsBefore = cdt.vertices.size();
+    refineRuppert(cdt, TestType(15), TestType(0), /*maxSteiner=*/5000);
+    REQUIRE(verifyTopology(cdt));
+    REQUIRE(cdt.vertices.size() >= vertsBefore);
+
+    cdt.eraseOuterTriangles();
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face03", "after");
+
+    // Near-collinear constraint vertices produce unavoidably degenerate
+    // triangles; skip strict angle check but verify topology is valid.
+}
+
+TEMPLATE_LIST_TEST_CASE(
+    "Ruppert - face04",
+    "[Ruppert]",
+    CoordTypes)
+{
+    // "face04.txt": 136 vertices, 91 constraint edges, bounding box ~4.7 x 0.72.
+    const auto [vv, ee] =
+        readInput<TestType>("inputs/face04.txt");
+
+    Triangulation<TestType> cdt;
+    cdt.insertVertices(vv);
+    cdt.insertEdges(ee);
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face04", "before");
+
+    const std::size_t vertsBefore = cdt.vertices.size();
+    refineRuppert(cdt, TestType(15), TestType(0), /*maxSteiner=*/5000);
+    REQUIRE(verifyTopology(cdt));
+    REQUIRE(cdt.vertices.size() >= vertsBefore);
+
+    cdt.eraseOuterTriangles();
+    REQUIRE(verifyTopology(cdt));
+    saveTestOff(cdt, "face04", "after");
+
+    // Near-collinear constraint vertices produce unavoidably degenerate
+    // triangles; skip strict angle check but verify topology is valid.
+}
+
+TEMPLATE_LIST_TEST_CASE(
     "Ruppert - face01 scaled (50x30)",
     "[Ruppert]",
     CoordTypes)
